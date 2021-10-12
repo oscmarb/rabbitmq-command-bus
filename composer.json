@@ -1,0 +1,24 @@
+{
+  "name": "oscmarb/rabbitmq-command-bus",
+  "authors": [
+    {
+      "name": "Óscar Martínez Benítez",
+      "email": "oscmarb@gmail.com"
+    }
+  ],
+  "description": "RabbitMQ Command Bus",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "ext-yaml": "*",
+    "ext-amqp": "*",
+    "oscmarb/ddd-cqrs": "^1.0",
+    "oscmarb/rabbitmq-client": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oscmarb\\RabbitMQCommandBus\\": "src/"
+    }
+  }
+}
